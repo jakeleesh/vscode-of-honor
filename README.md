@@ -1,5 +1,11 @@
 # VSCode of Honor — VS Code Extension
 
+<p align="center">
+  <img src="./Screenshot.png" alt="VSCode of Honor Screenshot" width="600" />
+</p>
+
+<p align="center"><i>VSCode of Honor in action — your knight fights while you code!</i></p>
+
 A VS Code extension that keeps you coding. Your knight stands in the sidebar, automatically fighting incoming enemy knights **while you type**. Stop typing and your knight goes idle — leaving enemies free to close in and deal damage.
 
 ## Getting Started
