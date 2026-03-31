@@ -3,7 +3,7 @@
   "displayName": "VSCode of Honor",
   "description": "A survival game that lives in your VS Code sidebar. Keep coding to keep your knight fighting!",
   "version": "0.2.0",
-  "publisher": "jklee",
+  "publisher": "JakeLeeShaoHerng",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0"
