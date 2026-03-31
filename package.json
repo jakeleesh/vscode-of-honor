@@ -1,0 +1,55 @@
+{
+  "name": "vscode-of-honor",
+  "displayName": "VSCode of Honor",
+  "description": "A survival game that lives in your VS Code sidebar. Keep coding to keep your knight fighting!",
+  "version": "0.2.0",
+  "publisher": "jklee",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "type": "webview",
+          "id": "vscodeOfHonor.gameView",
+          "name": "VSCode of Honor"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "vscodeOfHonor.resetGame",
+        "title": "VSCode of Honor: Reset Game"
+      }
+    ],
+    "configuration": {
+      "title": "VSCode of Honor",
+      "properties": {
+        "vscodeOfHonor.idleTimeoutSeconds": {
+          "type": "number",
+          "default": 5,
+          "minimum": 1,
+          "maximum": 120,
+          "description": "Seconds of inactivity before your knight stops fighting."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
