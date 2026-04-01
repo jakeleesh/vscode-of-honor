@@ -2,9 +2,14 @@
   "name": "vscode-of-honor",
   "displayName": "VSCode of Honor",
   "description": "A survival game that lives in your VS Code sidebar. Keep coding to keep your knight fighting!",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "JakeLeeShaoHerng",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeleesh/vscode-of-honor.git"
+  },
+  "icon": "assets/main_character_stand.png",
   "engines": {
     "vscode": "^1.85.0"
   },

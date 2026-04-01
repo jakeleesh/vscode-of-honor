@@ -1,7 +1,13 @@
 # VSCode of Honor — VS Code Extension
 
 <p align="center">
-  <img src="./Screenshot.png" alt="VSCode of Honor Screenshot" width="600" />
+  <a href="https://marketplace.visualstudio.com/items?itemName=JakeLeeShaoHerng.vscode-of-honor"><img src="https://img.shields.io/visual-studio-marketplace/v/JakeLeeShaoHerng.vscode-of-honor?label=version" alt="Version" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=JakeLeeShaoHerng.vscode-of-honor"><img src="https://img.shields.io/visual-studio-marketplace/i/JakeLeeShaoHerng.vscode-of-honor?label=installs" alt="Installs" /></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=JakeLeeShaoHerng.vscode-of-honor"><img src="https://img.shields.io/visual-studio-marketplace/d/JakeLeeShaoHerng.vscode-of-honor?label=downloads" alt="Downloads" /></a>
+</p>
+
+<p align="center">
+  <img src="./screen_recording_gif.gif" alt="VSCode of Honor Gameplay" width="600" />
 </p>
 
 <p align="center"><i>VSCode of Honor in action — your knight fights while you code!</i></p>
