@@ -383,6 +383,7 @@ export class GameViewProvider implements vscode.WebviewViewProvider {
               state.kills++;
               state.score += 10 * state.wave;
               if (state.score > state.highScore) state.highScore = state.score;
+              state.health = Math.min(MAX_HP, state.health + 5);
               // Death particles
               for (let k = 0; k < 8; k++) {
                 particles.push({
